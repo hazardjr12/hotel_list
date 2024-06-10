@@ -4,10 +4,9 @@ import Cors from "cors";
 
 const app = express();
 
-app.use(Cors({ origin: "*"})
-const allData = [...hotel]
+app.use(Cors({ origin: "*" }));
+const allData = [...hotel];
 const port = 4000;
-
 
 app.get("/", (req, res) => {
   res.send(allData);
