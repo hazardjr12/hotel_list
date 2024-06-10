@@ -2857,3 +2857,5 @@ let hotel = [
     ],
   },
 ];
+
+export default hotel
